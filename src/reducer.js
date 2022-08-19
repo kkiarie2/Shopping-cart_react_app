@@ -62,6 +62,7 @@ const reducer = (state, action) => {
 
   if (action.type === 'TOGGLE_AMOUNT') {
     let tempCart = state.cart.map((cartItem)=>{
+      //fix this part
 if (cartItem.id === action.payload.id) {
     if () {
         
